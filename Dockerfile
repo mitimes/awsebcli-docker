@@ -6,6 +6,7 @@ RUN apk --update add \
       groff \
       jq \
       git \
+      zip \
       python \
       py-pip && \
     pip install --upgrade awsebcli && \
